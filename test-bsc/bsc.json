@@ -1,20 +1,16 @@
 {
   "manifestVersion": "3.2",
-  "admin": {
-    "address": "0xb6Cfd76bB181d2c4Eab1DAA4F63918bC6F2155cf",
-    "txHash": "0xc6cd00aeb723bdc91fe385c826109ff6e664e2fbb7823dfe83c05d45f7aaf643"
-  },
   "proxies": [
     {
-      "address": "0x36F1D7a578eccC47BC4D1b86241b7D5D21D05d12",
-      "txHash": "0xe8d5e8c3d5538980e3216db83928627911110f3921e9e810167054ed774f0097",
-      "kind": "transparent"
+      "address": "0xA20b1a06859Df7e70C4aB7Fd0f6Ce0ab1562B885",
+      "txHash": "0xad5c67ff9ff80150e606c966b1382a9b67967bb65831967952b8cd057ee82fa4",
+      "kind": "uups"
     }
   ],
   "impls": {
-    "a7be5f3b9af8ea00da49ff9509ebd7da07bd3b0d67d758316841a7ef04e10772": {
-      "address": "0xFb7e4528307EdDeD6bBEEB38eB22e78682Dadb64",
-      "txHash": "0x058ec7a15a8430b0ed9cdf1c3f48a6fed7acd688ec0d7109a175ecc6082bb92d",
+    "f2e5b006ba110dd5c611914630c651155b4713470416c7e549d2e89f0e3f59a1": {
+      "address": "0x93FD5b38D39B96e705d09b99213979132F1AbE57",
+      "txHash": "0x30e11e345a124f56dec0f3c27ecf5a3905cee18e02eca41c0750817b40e31e26",
       "layout": {
         "solcVersion": "0.8.18",
         "storage": [
@@ -60,20 +56,36 @@
             "src": "@openzeppelin/contracts-upgradeable/access/OwnableUpgradeable.sol:94"
           },
           {
-            "label": "_version",
+            "label": "__gap",
             "offset": 0,
             "slot": "101",
+            "type": "t_array(t_uint256)50_storage",
+            "contract": "ERC1967UpgradeUpgradeable",
+            "src": "@openzeppelin/contracts-upgradeable/proxy/ERC1967/ERC1967UpgradeUpgradeable.sol:169"
+          },
+          {
+            "label": "__gap",
+            "offset": 0,
+            "slot": "151",
+            "type": "t_array(t_uint256)50_storage",
+            "contract": "UUPSUpgradeable",
+            "src": "@openzeppelin/contracts-upgradeable/proxy/utils/UUPSUpgradeable.sol:111"
+          },
+          {
+            "label": "_version",
+            "offset": 0,
+            "slot": "201",
             "type": "t_string_storage",
             "contract": "Lock",
-            "src": "contracts/Lock.sol:9"
+            "src": "contracts/Lock.sol:10"
           },
           {
             "label": "_purpose",
             "offset": 0,
-            "slot": "102",
+            "slot": "202",
             "type": "t_string_storage",
             "contract": "Lock",
-            "src": "contracts/Lock.sol:10"
+            "src": "contracts/Lock.sol:11"
           }
         ],
         "types": {

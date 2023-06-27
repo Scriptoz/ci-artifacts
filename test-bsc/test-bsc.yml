@@ -10,3 +10,10 @@ contracts:
     initializerArgs: []
     libraries:
       - TestLib
+  - factory: Lock
+    description: Another Lock contract
+    address:
+    initializer: __Lock_init
+    initializerArgs: []
+    libraries:
+      - TestLib

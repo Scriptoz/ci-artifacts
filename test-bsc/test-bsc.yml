@@ -1,11 +1,11 @@
 name: test-bsc
 libraries:
   - factory: TestLib
-    address:
+    address: '0x1Ff22EeD97e145a5C12736f614b1Fc243C6A0Bcd'
 contracts:
   - factory: Lock
     description: The purpose of a contract
-    address:
+    address: '0x4983E662Bc6298bFddBc9dDCca46dE401783BC92'
     initializer: __Lock_init
     initializerArgs: []
     libraries:

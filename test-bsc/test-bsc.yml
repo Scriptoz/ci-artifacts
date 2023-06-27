@@ -12,7 +12,7 @@ contracts:
       - TestLib
   - factory: Lock
     description: Another Lock contract
-    address:
+    address: '0xB91CE0Dc4f56479ea686F8EDe8f7C0BDF9Fdd749'
     initializer: __Lock_init
     initializerArgs: []
     libraries:

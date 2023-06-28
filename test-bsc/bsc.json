@@ -70,6 +70,11 @@
       "address": "0x1Ff22EeD97e145a5C12736f614b1Fc243C6A0Bcd",
       "txHash": "0x09c400696892237eccef135decb1e05e8155a7314a184b9b3a8a0ea3bb14a709",
       "kind": "uups"
+    },
+    {
+      "address": "0xe2b60429A35C8bFF378DACF6a7B8Ef4AC83C6711",
+      "txHash": "0x02a955964a5fef6a6f5977ebd7b1cb7fc54083a7a8134dc71569d5848b7c7d4c",
+      "kind": "uups"
     }
   ],
   "impls": {
@@ -1084,6 +1089,118 @@
     "c73569736dfa528b06d92ffa158e84aa4ac5f0db7d82af4099521c652b05ea79": {
       "address": "0x3E5e21AFb5d4B0e218996Cf366AB61ED311211eE",
       "txHash": "0x966adae1c3e76e945918d47dcb8f10ee065cf0c6aac06398e9f29a15f027b153",
+      "layout": {
+        "solcVersion": "0.8.18",
+        "storage": [
+          {
+            "label": "_initialized",
+            "offset": 0,
+            "slot": "0",
+            "type": "t_uint8",
+            "contract": "Initializable",
+            "src": "@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol:63",
+            "retypedFrom": "bool"
+          },
+          {
+            "label": "_initializing",
+            "offset": 1,
+            "slot": "0",
+            "type": "t_bool",
+            "contract": "Initializable",
+            "src": "@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol:68"
+          },
+          {
+            "label": "__gap",
+            "offset": 0,
+            "slot": "1",
+            "type": "t_array(t_uint256)50_storage",
+            "contract": "ContextUpgradeable",
+            "src": "@openzeppelin/contracts-upgradeable/utils/ContextUpgradeable.sol:36"
+          },
+          {
+            "label": "_owner",
+            "offset": 0,
+            "slot": "51",
+            "type": "t_address",
+            "contract": "OwnableUpgradeable",
+            "src": "@openzeppelin/contracts-upgradeable/access/OwnableUpgradeable.sol:22"
+          },
+          {
+            "label": "__gap",
+            "offset": 0,
+            "slot": "52",
+            "type": "t_array(t_uint256)49_storage",
+            "contract": "OwnableUpgradeable",
+            "src": "@openzeppelin/contracts-upgradeable/access/OwnableUpgradeable.sol:94"
+          },
+          {
+            "label": "__gap",
+            "offset": 0,
+            "slot": "101",
+            "type": "t_array(t_uint256)50_storage",
+            "contract": "ERC1967UpgradeUpgradeable",
+            "src": "@openzeppelin/contracts-upgradeable/proxy/ERC1967/ERC1967UpgradeUpgradeable.sol:169"
+          },
+          {
+            "label": "__gap",
+            "offset": 0,
+            "slot": "151",
+            "type": "t_array(t_uint256)50_storage",
+            "contract": "UUPSUpgradeable",
+            "src": "@openzeppelin/contracts-upgradeable/proxy/utils/UUPSUpgradeable.sol:111"
+          },
+          {
+            "label": "_version",
+            "offset": 0,
+            "slot": "201",
+            "type": "t_string_storage",
+            "contract": "Lock",
+            "src": "contracts/Lock.sol:10"
+          },
+          {
+            "label": "_purpose",
+            "offset": 0,
+            "slot": "202",
+            "type": "t_string_storage",
+            "contract": "Lock",
+            "src": "contracts/Lock.sol:11"
+          }
+        ],
+        "types": {
+          "t_address": {
+            "label": "address",
+            "numberOfBytes": "20"
+          },
+          "t_array(t_uint256)49_storage": {
+            "label": "uint256[49]",
+            "numberOfBytes": "1568"
+          },
+          "t_array(t_uint256)50_storage": {
+            "label": "uint256[50]",
+            "numberOfBytes": "1600"
+          },
+          "t_bool": {
+            "label": "bool",
+            "numberOfBytes": "1"
+          },
+          "t_string_storage": {
+            "label": "string",
+            "numberOfBytes": "32"
+          },
+          "t_uint256": {
+            "label": "uint256",
+            "numberOfBytes": "32"
+          },
+          "t_uint8": {
+            "label": "uint8",
+            "numberOfBytes": "1"
+          }
+        }
+      }
+    },
+    "101da6e9821d8a3abc5e8bda430cde1448723b1af2dff642bfb0545ee1eb1bf3": {
+      "address": "0x40192380F44a2D9E1D5666741E867A65beF4A4FE",
+      "txHash": "0x7669261cceac32764482f55173cd320ee6a3dbc3dcce1ec728826264473244fd",
       "layout": {
         "solcVersion": "0.8.18",
         "storage": [

@@ -1,7 +1,7 @@
 name: test-bsc
 libraries:
   - factory: TestLib
-    address:
+    address: '0x5297E497E7280C03689a6f338E88837EBfE325BA'
 contracts:
   - factory: Lock
     description: The purpose of a contract
